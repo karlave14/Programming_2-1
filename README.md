@@ -28,7 +28,7 @@
 
 ## Methods of rhe programming paradigms:
 
-**INTERPRETED**
+  **INTERPRETED**
 
 **COMPILED**
 
