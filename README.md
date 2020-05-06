@@ -109,9 +109,11 @@ Each programming language contains constructs and mechanisms for structuring dat
 
 * *Reserved Words*: They are words that are explicitly used by the programming language and they should not be used as variables names because they have a unique function inside of the language.
 
+### References
 
-
-
+* [Foundations of Programming Languages](https://link.springer.com/book/10.1007/978-3-319-13314-0)
+* [Principles of Programming Languages](https://link.springer.com/book/10.1007/978-1-84882-032-6)
+* [Programming Languages: Principles and Paradigms](https://link.springer.com/book/10.1007/978-1-84882-914-5)
 
 # KARLA
 
