@@ -28,11 +28,13 @@
 
 # JASON
 
-## Methods of rhe programming paradigms:
+## Implementation methods of the programming paradigms:
 
-  **INTERPRETED**
+There are two main ways that languages can be implemented:
 
-**COMPILED**
+    • A language can be interpreted 
+    • A language can be compiled
+
 
 Recognize programming languages
 Recognize sequential algorithms
