@@ -2,9 +2,9 @@
 ## INTRODUCTION STRUCTURES PROGRAMING
 #### Integrantes:
  
-* [Arana Andrew](https://github.com/Andrewbejar)
-* [Pinelo Jason](https://github.com/JasonPinelo95)
-* [Valdez Karla](https://github.com/karlave14/Programming_2/edit/master/README.md)
+* [Arana Andrew](https://github.com/Andrewbejar/Programming-2)
+* [Pinelo Jason](https://github.com/JasonPinelo95/Programming_2)
+* [Valdez Karla](https://github.com/karlave14/Programming_2)
 
 # ANDREW
 
