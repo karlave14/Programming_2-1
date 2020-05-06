@@ -6,7 +6,6 @@
 * [Pinelo Jason](https://github.com/JasonPinelo95/Programming_2)
 * [Valdez Karla](https://github.com/karlave14/Programming_2)
 
-# ANDREW
 
 ## Programming Paradigm
 * A programming paradigm is simply a style of programming. Each paradigm varies depending on the specific needs of the programmer.
@@ -28,7 +27,6 @@
 * **Object-Oriented:** Programming by defining objects that send messages to each other. Objects own their own internal state and public interfaces. Object Orientation can be: class-bassed or prototype based.
 
 
-# JASON
 
 ## Implementation methods of the programming paradigms:
 
@@ -117,7 +115,6 @@ Each programming language contains constructs and mechanisms for structuring dat
 * [Principles of Programming Languages](https://link.springer.com/book/10.1007/978-1-84882-032-6)
 * [Programming Languages: Principles and Paradigms](https://link.springer.com/book/10.1007/978-1-84882-914-5)
 
-# KARLA
 
 ## Type of data 
 A data type is a type together with a collection of operations 
