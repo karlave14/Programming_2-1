@@ -6,6 +6,8 @@
 * [Pinelo Jason](https://github.com/JasonPinelo95)
 * [Valdez Karla](https://github.com/karlave14/Programming_2/edit/master/README.md)
 
+# ANDREW
+
 ## Programming Paradigm
 * A programming paradigm is simply a style of programming. Each paradigm varies depending on the specific needs of the programmer.
 ### Classification of programing paradigms
@@ -109,7 +111,7 @@ Each programming language contains constructs and mechanisms for structuring dat
 
 * *Reserved Words*: They are words that are explicitly used by the programming language and they should not be used as variables names because they have a unique function inside of the language.
 
-### References
+### Bibliography
 
 * [Foundations of Programming Languages](https://link.springer.com/book/10.1007/978-3-319-13314-0)
 * [Principles of Programming Languages](https://link.springer.com/book/10.1007/978-1-84882-032-6)
