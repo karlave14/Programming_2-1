@@ -176,9 +176,11 @@ Is basically converting one type of data type to other to perform some operation
 	that of the original expressions and on the meaning of the operator. 
  *operators in **C***
  
- | && | AND|
- | || | OR |
- | !  | NOT|
+| Operator | Operation |
+|----------|-----------|
+| \|\|     | OR        |
+| !        | NOT       |
+| &&       | AND       |
  
 * **Ralational:** is a programming language construct or operator that tests or defines some kind of relation between two entities. 
 
