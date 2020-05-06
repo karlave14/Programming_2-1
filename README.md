@@ -32,8 +32,8 @@
 
 There are two main ways that languages can be implemented:
 
-*A language can be interpreted 
-*A language can be compiled
+* A language can be interpreted 
+* A language can be compiled
 
 Computer are only capable of executing machine language(the language of the CPU). The goal of any programming language implementation is to translate a source program into this simpler machine language so it can be executed by the CPU.
 
@@ -43,9 +43,9 @@ It is the most direct method of translating a program to machine language. A com
 
 Programming in a compiled language is a three-step process.
 
-*First, you write a source program.
-*Then you compile the source program, producing an executable program.
-*Then you run the executable program.
+* First, you write a source program.
+* Then you compile the source program, producing an executable program.
+* Then you run the executable program.
 
 Machine language is specific to a CPU architecture and operating system. Compiling a source program on Linux means it will run on Linux machines with a similar CPU. However, you cannot take a Linux executable and put it on a Microsoft Windows machine and expect it to run, even if the two computer have the same CPU. The Linux and Windows operating systems each have their own format for executable machine language programs. In addition, compiled programs use operating system services for printing, reading input, and doing other Input/Output (I/O) operations. These services are invoked differently between OS’s. C, C++, Pascal, Fortran, COBOL and many other are typically compiled languages.
 
@@ -56,15 +56,15 @@ When you run an interpreted source program, you are actually running the interpr
 
 Programming in an interpreted language is a two step process.
 
-*First you write a source program.
-*Then you execute the source program by running the interpreter.
+* First you write a source program.
+* Then you execute the source program by running the interpreter.
 
 Each time your program is executed it is translated into an AST by a part of the interpreter called the parse. There may be an additional step that translates the AST to some lower-level representation, often called bytecode. In an interpreter, this lower-level representation is still internal to the interpreter program. Then a part of the interpreter, often called a virtual machine, executes the byte code instructions.
 Eliminating the compile step has a few implications.
 
-*Since you have one less step in development you may be encouraged to run your code more frequently during development. This is generally a good thing and can shorten the development cycle.
-*Secondly, because you do not have an executable version of your code, you don’t have to manage the two versions. You only have a source code program to keep track of.
-*Finally, because the source code is not platform dependent, you can usually easily move your program between platforms. The interpreter insulates your program from platform dependencies.
+* Since you have one less step in development you may be encouraged to run your code more frequently during development. This is generally a good thing and can shorten the development cycle.
+* Secondly, because you do not have an executable version of your code, you don’t have to manage the two versions. You only have a source code program to keep track of.
+* Finally, because the source code is not platform dependent, you can usually easily move your program between platforms. The interpreter insulates your program from platform dependencies.
 
 There are many interpreted languages available including Python, Ruby, Standard ML, and Unix scripting languages like Bash and Csh.
 
