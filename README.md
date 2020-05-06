@@ -184,6 +184,15 @@ Is basically converting one type of data type to other to perform some operation
  
 * **Ralational:** is a programming language construct or operator that tests or defines some kind of relation between two entities. 
 
+| Operator | Description           |
+|----------|-----------------------|
+| <        | Smaller than          |
+| >        | Greater than          |
+| <=       | smaller or equal than |
+| >=       | Greater or equal than |
+| ==       | Equivalent            |
+| !=       | Different than        |
+
 #### References: 
 
 * [Type of data](https://www.programiz.com/c-programming/c-data-types)
