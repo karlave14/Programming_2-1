@@ -176,8 +176,7 @@ Is basically converting one type of data type to other to perform some operation
 	that of the original expressions and on the meaning of the operator. 
  *operators in **C***
  
- |  && | AND  |
- | -- | -- | 
+ | && | AND|
  | || | OR |
  | !  | NOT|
  
