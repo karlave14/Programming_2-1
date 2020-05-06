@@ -97,11 +97,17 @@ Each instruction takes one time step to execute. The total execution time of a p
 
 It is any collection of code, possibly with comments, written using a human-readable programming language, usually as plain text. The source code of a program is specially designed to facilitate the work of computer programmers, who specify the actions to be performed by a computer mostly by writing source code. The source code is often transformed by an assembler or compiler into binary machine code that can be executed by the computer. The machine code might then be stored for execution at a later time. Alternatively, source code may be interpreted and thus immediately executed. 
 
-### Describe concept and characteristics of data representatoin in structured programming language:
-* *Identifiers*
-* *Variables*
-* *Constants* 
-* *Reserved Words*
+## Describe concept and characteristics of data representatoin in structured programming language:
+
+Each programming language contains constructs and mechanisms for structuring data. Instead of just the simple sequences of bits in the physical machine, a highlevel language provides complex, structured data which more easily lends itself to describing the structure of the problems that are to be solved. These constructs and mechanisms are formed from what is called the type system of a language. Far from being an auxiliary aspect, types represent one of the salient characteristics of a programming language and which substantially differentiate one language from an other.
+
+* *Identifiers*: An identifier is any non reserved word that begins with a letter or an underline and can contain in its interior words, numbers or underlines. The maximum length of an identifier depends on the compiler,but, generally, the are of 32 characters .
+
+* *Variables*: The classical imperative paradigm uses modifiable variables. According to this model, the variable is seen as a sort of container, or location (clearly referring to physical memory), to which a name can be given and which contains values (usually of a homogeneous type, for example integers real, characters etc.). These values can be changed over time, by execution of assignment commands (whence comes the adjective “modifiable”). This terminology might seem tautological to the average computer person, who is almost always someone who knows an imperative language and is therefore used to modifiable variables. The attentive reader, though, will have noted that, in reality, variables are not always modifiable. In mathematics a variable represents a value that is unknown but when such a value is defined the link thus created cannot be modified later.
+
+* *Constants*: They are variables that are assigned an initial value that can never be changed in the run time.
+
+* *Reserved Words*: They are words that are explicitly used by the programming language and they should not be used as variables names because they have a unique function inside of the language.
 
 
 
