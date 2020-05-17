@@ -1,4 +1,7 @@
-# Control Srtructures 
+#Flow Control Structures 
+According to von Neumann principles, the program execution is sequential. Each statement is executed one
+after another. There are several statements to change control flow.
+
 The flow of control through any given function is implemented with three types of control structures:
 * **Sequential** 
 * **Selective** 
@@ -24,7 +27,9 @@ Used for decisions -- choosing between 2 or more alternative paths.
 
 ### **If Statements**
 The **if** statement allows you to control if a program enters a section of code 
- or not based on whether a given condition is true or false. 
+ or not based on whether a given condition is true or false. If the condition is satisfied, the first block
+is executed. If the condition is not satisfied, the second block is executed, but the second block is not
+mandatory.
  * The important functions of the if statement is that it allows the program 
    to select an action based upon the user's input.
   A true statement is one that evaluates to a nonzero number and a false statement 
@@ -87,8 +92,11 @@ Use of **else is** when there are multiple conditional statements
         else
             statement
     }
+    
+The braces are optional. Without braces, only one statement will be considered part of each branch, as
 
 ### **Switch Statement**
+A switch statement is used like multiple nested if’s when the condition is some integer variable being equal to one or another value.
 A switch statement is convenient for occasions in which there are multiple cases to choose from. The syntax format is: 
 
     switch(expression)
@@ -119,7 +127,7 @@ How it works:
 Also repition control structures. Used for looping, i.e.  repeating a piece of code multiple times in a row.
 
 ### **For Statments**
-* The *for* loop is most convenient with coutning loops -- i.e. loops that are based on a countinf variable, usually a known number of iterations
+* The *for* loop is most convenient with coutning loops -- i.e. loops that are based on a countinf variable, usually a known number of iterations. Therefore a for statement is ideal to iterate over finite collections, such as linked lists or arrays.
 
 How it works:
 * The *initial condition* runs one, at the start of the loop.
