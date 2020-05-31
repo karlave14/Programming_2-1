@@ -89,7 +89,7 @@ Generally, we talk about two types of recursive functions but they are the same 
 
 #### Examples of recursive functions
 
-##### Program to compute the factorial of any given number
+##### Program to compute the factorial of any given number using direct recursion
 
 	#include <stdio.h>
 
@@ -105,6 +105,33 @@ Generally, we talk about two types of recursive functions but they are the same 
         	printf("The factorial of %d is %d\n", number,factorial(number));
 
 	}
+	
+#### Program to know whether a number is even or not using indirect recursion
+
+	#include <stdio.h>
+
+	int odd (const int);
+
+	int even (const int x) {
+        	if (x == 0) return 1;
+        	return odd(x - 1);
+        	}
+
+	int odd (const int x) {
+        	if (x == 0) return 0;
+        	return even(x - 1);
+        	}
+
+	int main () {
+        	int number=0;
+        	printf("Input any number, i will return '1' if it is even or '0' if it $
+        	scanf("%d", &number);
+		printf("%d\n",even(number));
+        	return 0;
+        }
+
+		
+
 
 
 
