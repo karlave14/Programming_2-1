@@ -72,6 +72,11 @@ Recursion is the way to get things done in a functional language. Recursion happ
 To spare ourselves from this problem we insist on two things happening. First, every recursive function must have a base case. A base case is a simple subproblem that we are trying to solve that doesn’t require recursion. We must write some code that checks for the simple problem and simply returns the answer in that case.
 The second rule of recursive functions requires them to call themselves on some simpler or smaller subproblem. In some way each recursive call should take a step toward the base case of the problem. If each recursive call advances toward the base case then by the mathematical principle of induction we can conclude the function will work for all values on which the function is defined! The trick is not to think about this too hard. The recursive case is often referred to as the inductive case.
 
+Generally, we talk about two types of recursive functions but they are the same in essence.
+
+* **Direct**: They are functions that call themselves
+* **Indirect**: They are functions that call other functions, that eventually call the initial function again.
+
 #### Steps to write any recursive function
 1. Decide what the function is named, what arguments are passed to it, and what the function should return.
 2. At least one of the arguments must get smaller each time. Most of the time it is only one argument getting smaller. Decide which one that will be.
@@ -81,3 +86,25 @@ The second rule of recursive functions requires them to call themselves on some 
 6. Make a recursive call to the function with a smaller value. For instance, if it is a list you decided will get smaller, call the function with the tail of the list. If an integer is the argument getting smaller, call the function with the integer argument minus 1. Call the function with the required arguments and in particular with a smaller value for the argument you decided would get smaller at each step.
 7. Now, here’s a leap of faith. That call you made in the last step worked! It returned the result that you expected for the arguments it was given. Use that result in building the result for the original arguments passed to the function. At this step it may be helpful to try a concrete example. Assume the recursive call worked on the concrete example. What do you have to do with that result to get the result you wanted for the initial call? Write code that uses the result in building the final result for your concrete example. By considering a concrete example it will help you see what computation is required to get your final result.
 8. That’s it! Your function is complete and it will work if you stuck to these guide-lines.
+
+#### Examples of recursive functions
+
+##### Program to compute the factorial of any given number
+
+	#include <stdio.h>
+
+	int factorial(int n){
+        	if(n==0) return 1;
+        	return n*factorial(n-1); 
+	}
+
+	void main(void)
+	{
+     		int number=0;
+        	scanf("%d",&number); 
+        	printf("The factorial of %d is %d\n", number,factorial(number));
+
+	}
+
+
+
