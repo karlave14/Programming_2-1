@@ -15,16 +15,16 @@ at the instructuion after the one that invoked the subprogram.
 * At the **assembly language level** use of subprograms requires subprogram linkage protocols.
 
 #### Characteristics of a subprogram
-1. A Subprogram is implemented using the Call & Return instructions in Assembly Language.
-2. The Call Instruction is present in the Main Program and the Return(Ret)
-   Instruction is present in the subprogram itself
-3. It is important to note that the Main Program is suspended during the execution of any subprogram
-Moreover, after the completion of the subprogram the main program executes from the next sequential
-address present in the Program Counter.
-4. For the implementation of any subprogram, a “Stack” is used to store the “Return Address”
-to the Main Program.
-5. The Main advantage of Subprogram is that it avoids repetition of Code and allows us to reuse
-the same code again and again.
+	1. A Subprogram is implemented using the Call & Return instructions in Assembly Language.
+	2. The Call Instruction is present in the Main Program and the Return(Ret)
+   	Instruction is present in the subprogram itself
+	3. It is important to note that the Main Program is suspended during the execution of any subprogram
+	Moreover, after the completion of the subprogram the main program executes from the next sequential
+	address present in the Program Counter.
+	4. For the implementation of any subprogram, a “Stack” is used to store the “Return Address”
+	to the Main Program.
+	5. The Main advantage of Subprogram is that it avoids repetition of Code and allows us to reuse
+	the same code again and again.
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 ##Parameters in Subprograms
 You can choose between two methods of parameter passing to optimize a program call. 
@@ -73,10 +73,10 @@ To spare ourselves from this problem we insist on two things happening. First, e
 The second rule of recursive functions requires them to call themselves on some simpler or smaller subproblem. In some way each recursive call should take a step toward the base case of the problem. If each recursive call advances toward the base case then by the mathematical principle of induction we can conclude the function will work for all values on which the function is defined! The trick is not to think about this too hard. The recursive case is often referred to as the inductive case.
 
 #### Steps to write any recursive function
-1. Decide what the function is named, what arguments are passed to it, and what the function should return.
-2. At least one of the arguments must get smaller each time. Most of the time it is only one argument getting smaller. Decide which one that will be.
-3. Write the function declaration, declaring the name, arguments types, and return type if necessary. 4. Write a base case for the argument that you decided will get smaller. Pick the smallest, simplest value that could be passed to the function and just return the result for that base case.
-5. The next step is the crucial step. You don’t write the next statement from left to right. You write from the inside out at this point.
-6. Make a recursive call to the function with a smaller value. For instance, if it is a list you decided will get smaller, call the function with the tail of the list. If an integer is the argument getting smaller, call the function with the integer argument minus 1. Call the function with the required arguments and in particular with a smaller value for the argument you decided would get smaller at each step.
-7. Now, here’s a leap of faith. That call you made in the last step worked! It returned the result that you expected for the arguments it was given. Use that result in building the result for the original arguments passed to the function. At this step it may be helpful to try a concrete example. Assume the recursive call worked on the concrete example. What do you have to do with that result to get the result you wanted for the initial call? Write code that uses the result in building the final result for your concrete example. By considering a concrete example it will help you see what computation is required to get your final result.
-8. That’s it! Your function is complete and it will work if you stuck to these guide-lines.
+	1. Decide what the function is named, what arguments are passed to it, and what the function should return.
+	2. At least one of the arguments must get smaller each time. Most of the time it is only one argument getting smaller. Decide which one that will be.
+	3. Write the function declaration, declaring the name, arguments types, and return type if necessary. 4. Write a base case for the argument that you decided will get smaller. Pick the smallest, simplest value that could be passed to the function and just return the result for that base case.
+	5. The next step is the crucial step. You don’t write the next statement from left to right. You write from the inside out at this point.
+	6. Make a recursive call to the function with a smaller value. For instance, if it is a list you decided will get smaller, call the function with the tail of the list. If an integer is the argument getting smaller, call the function with the integer argument minus 1. Call the function with the required arguments and in particular with a smaller value for the argument you decided would get smaller at each step.
+	7. Now, here’s a leap of faith. That call you made in the last step worked! It returned the result that you expected for the arguments it was given. Use that result in building the result for the original arguments passed to the function. At this step it may be helpful to try a concrete example. Assume the recursive call worked on the concrete example. What do you have to do with that result to get the result you wanted for the initial call? Write code that uses the result in building the final result for your concrete example. By considering a concrete example it will help you see what computation is required to get your final result.
+	8. That’s it! Your function is complete and it will work if you stuck to these guide-lines.
