@@ -131,7 +131,7 @@ Generally, we talk about two types of recursive functions but they are the same 
 
 	int main () {
         	int number=0;
-        	printf("Input any number, i will return '1' if it is even or '0' if it $
+        	printf("Input any number, i will return '1' if it is even or '0' if it is odd: ");
         	scanf("%d", &number);
 		printf("%d\n",even(number));
         	return 0;
