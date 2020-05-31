@@ -65,14 +65,14 @@ With the by-reference method, only a pointer to the value is passed, in which ca
 * [Subprograms](https://www.d.umn.edu/~gshute/asm/subprograms.xhtml)
 * [Parameters in subprograms](https://docs.oracle.com/cd/A58617_01/server.804/a58236/07_subs.htm)
 
-###Recursion
+### Recursion
 
 Recursion is the way to get things done in a functional language. Recursion happens when a function calls itself. Because of the principle of referential transparency a function must never call itself with the same arguments. If it were to do that, then the function would do exactly what it did the last time, call itself with the same arguments, which would then.... Well, you get the picture!
 
 To spare ourselves from this problem we insist on two things happening. First, every recursive function must have a base case. A base case is a simple subproblem that we are trying to solve that doesn’t require recursion. We must write some code that checks for the simple problem and simply returns the answer in that case.
 The second rule of recursive functions requires them to call themselves on some simpler or smaller subproblem. In some way each recursive call should take a step toward the base case of the problem. If each recursive call advances toward the base case then by the mathematical principle of induction we can conclude the function will work for all values on which the function is defined! The trick is not to think about this too hard. The recursive case is often referred to as the inductive case.
 
-####Steps to write any recursive function
+#### Steps to write any recursive function
 1. Decide what the function is named, what arguments are passed to it, and what the function should return.
 2. At least one of the arguments must get smaller each time. Most of the time it is only one argument getting smaller. Decide which one that will be.
 3. Write the function declaration, declaring the name, arguments types, and return type if necessary. 4. Write a base case for the argument that you decided will get smaller. Pick the smallest, simplest value that could be passed to the function and just return the result for that base case.
