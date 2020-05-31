@@ -1,6 +1,13 @@
 
 
 ## Chapther 3
+
+### Members
+
+* [Arana Andrew](https://github.com/Andrewbejar/Programming-2/blob/master/subprogram3.md)
+* [Pinelo Jason](https://github.com/JasonPinelo95/Programming_2/blob/master/subprogram3.md)
+* [Valdez Karla](https://github.com/karlave14/Programming_2/blob/master/subprogram3.md)
+
 ### Subprograms
 
 * A program inside any larger program that can be reused any number of times*
@@ -131,7 +138,9 @@ Generally, we talk about two types of recursive functions but they are the same 
         }
 
 		
+#### References
 
-
+* [Foundations of Programming Languages](https://link.springer.com/book/10.1007/978-3-319-70790-7)
+* [Principles of Programming Languages](https://link.springer.com/book/10.1007/978-1-84882-032-6)
 
 
